@@ -104,12 +104,15 @@ section{
 	position:relative;
 	margin-top: -3px;
 }
-.title span{
-	font-size: 32px;
-    color: #c40c0c;
+.title h1::after{
+	content: "";
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: #c40c0c;
     position: absolute;
-    top: -13px;
-    left: 102px;
+    top: 23px;
+    right: 48px;
 }
 .nav_bar_head{
 	display:flex;
